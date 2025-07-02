@@ -12,7 +12,7 @@
 	<artifactId>eventoapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eventoapi</name>
-	<description>Demo project for Spring Boot</description>
+	<description>API para eventos</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -67,6 +67,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.github.huiaong</groupId>
+			<artifactId>base64-multipartfile-starter</artifactId>
+			<version>1.0.0-RELEASE</version>
 		</dependency>
 	</dependencies>
 
